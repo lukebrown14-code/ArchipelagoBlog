@@ -1,5 +1,6 @@
 <script lang="ts">
 	interface posts {
+		id: number;
 		title: string;
 		subTitle: string;
 		tags: string[];
@@ -10,11 +11,13 @@
 
 	const blogPosts: postCollection = {
 		1: {
+			id: 1,
 			title: 'A-Brief-History-of-England',
 			subTitle: 'From Stonehenge to Empire: A Journey Through Time',
 			tags: ['England', 'History']
 		},
 		2: {
+			id: 2,
 			title: 'Post',
 			subTitle: 'Post 2',
 			tags: ['four', 'three']
@@ -25,7 +28,7 @@
 <div class="mt-6">
 	<h1 class="title text-left text-5xl">READ·ING</h1>
 	<div class="mt-4">
-		{#each Object.values(blogPosts) as post}
+		{#each Object.values(blogPosts) as post (post.id)}
 			<div class="mt-2">
 				<h2 class="title-hover title text-xl">
 					<a href="/blog/{post.title}">{post.title.replaceAll('-', ' ')}</a>
