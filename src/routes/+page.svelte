@@ -31,7 +31,7 @@
 		{#each Object.values(blogPosts) as post (post.id)}
 			<div class="mt-2">
 				<h2 class="title-hover title text-xl">
-					<a href="/blog/{post.title}">{post.title.replaceAll('-', ' ')}</a>
+					<a href="/posts/{post.title}">{post.title.replaceAll('-', ' ')}</a>
 				</h2>
 				<p class="subTitle mx-2 text-sm">{post.subTitle} - {post.tags}</p>
 			</div>
