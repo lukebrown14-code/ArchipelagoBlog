@@ -1,2 +1,16 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/typography';
+
+@layer components {
+	.title-hover {
+		@apply underline decoration-green-800 decoration-2 underline-offset-2 transition-all duration-1000 hover:italic;
+	}
+
+	.title {
+		@apply font-bold text-stone-900;
+	}
+
+	.subTitle {
+		@apply font-light text-stone-700 opacity-70;
+	}
+}
