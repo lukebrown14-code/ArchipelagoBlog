@@ -11,6 +11,7 @@ export const load: PageLoad = async ({ params }) => {
 			content: post.default,
 			meta: post.metadata
 		};
+		// eslint-disable-next-line @typescript-eslint/no-unused-vars
 	} catch (e) {
 		throw error(404, 'Post not found');
 	}
