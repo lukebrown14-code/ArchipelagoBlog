@@ -11,7 +11,7 @@
 		<div class="inline-flex space-x-2 text-xs">
 			{#each data.meta.tags as tag (tag)}
 				<h2 class="subTitle text-xl">
-					<a href="/" class="title-hover">{tag}</a>
+					<a href="/tags/{tag}" class="title-hover">{tag}</a>
 				</h2>
 			{/each}
 		</div>

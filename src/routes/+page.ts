@@ -17,6 +17,12 @@ export const load = (async () => {
 					title: 'Post',
 					subTitle: 'Post 2',
 					tags: ['four', 'three']
+				},
+				3: {
+					id: 3,
+					title: 'Post-two',
+					subTitle: 'The trust about 1',
+					tags: ['four', 'three']
 				}
 			}
 		};
