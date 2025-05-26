@@ -15,6 +15,7 @@
 			</h2>
 		</div>
 	</div>
-
-	{@render children()}
+	<div class="mt-6">
+		{@render children()}
+	</div>
 </div>
