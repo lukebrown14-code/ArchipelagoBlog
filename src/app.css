@@ -7,7 +7,7 @@
 	}
 
 	.title {
-		@apply font-bold text-stone-900;
+		@apply font-mono font-bold text-stone-900 subpixel-antialiased;
 	}
 
 	.subTitle {
