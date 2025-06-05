@@ -18,8 +18,4 @@
 	.title {
 		@apply font-bold decoration-4 underline-offset-2;
 	}
-
-	.subTitle {
-		@apply font-light opacity-70;
-	}
 }
