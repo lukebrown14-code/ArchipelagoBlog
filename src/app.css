@@ -9,10 +9,10 @@
 
 @layer components {
 	.link-transition {
-		@apply transition-all duration-750 hover:decoration-orange-800;
+		@apply transition-all duration-750 hover:decoration-cyan-600;
 	}
 	.link {
-		@apply italic underline decoration-emerald-800 decoration-wavy;
+		@apply italic underline decoration-teal-600 decoration-wavy;
 	}
 
 	.title {
