@@ -1,8 +1,9 @@
 <script lang="ts">
 	let { data } = $props();
+	import '../app.css';
 </script>
 
-<div class="mt-6">
+<div>
 	<h1 class="title text-left text-5xl">READ·ING</h1>
 	<div class="mt-4">
 		{#each data.BlogData as post (post.id)}

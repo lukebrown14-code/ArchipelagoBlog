@@ -1,16 +1,25 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/typography';
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@theme {
+	--font-montserrat: 'Montserrat', sans-serif;
+}
+
 @layer components {
-	.title-hover {
-		@apply underline decoration-green-800 decoration-2 underline-offset-2 transition-all duration-1000 hover:italic;
+	.link-transition {
+		@apply transition-all duration-750 hover:decoration-cyan-600;
+	}
+	.link {
+		@apply italic underline decoration-teal-600 decoration-wavy;
 	}
 
 	.title {
-		@apply font-mono font-bold text-stone-900 subpixel-antialiased;
+		@apply font-bold decoration-4 underline-offset-2;
 	}
 
 	.subTitle {
-		@apply font-light text-stone-700 opacity-70;
+		@apply font-light opacity-70;
 	}
 }
