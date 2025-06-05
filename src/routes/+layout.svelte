@@ -6,14 +6,14 @@
 
 <div class="mx-16 my-8">
 	<div class="relative flex flex-col items-start justify-start">
-		<div class="text-left">
-			<h1 id="title" class="title-hover title text-6xl">
-				<a href="/">AR·CHI·PEL·AGO</a>
-			</h1>
-			<h2 id="about" class="title-hover subTitle text-lg">
-				<a href="/about">Luke Brown</a>
-			</h2>
-		</div>
+		<h1 id="title" class="title link link-transition text-6xl">
+			<a href="/">AR·CHI·PEL·AGO</a>
+		</h1>
+		<!-- <div class="mt-2">
+				<h2 id="about" class="link link-transition">
+					<a href="/about">Luke Brown</a>
+				</h2>
+			</div> -->
 	</div>
 	<div class="mt-6">
 		{@render children()}

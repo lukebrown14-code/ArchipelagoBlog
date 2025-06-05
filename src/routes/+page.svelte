@@ -2,7 +2,7 @@
 	let { data } = $props();
 </script>
 
-<div class="mt-6">
+<div class="mt-16">
 	<h1 class="title text-left text-5xl">READ·ING</h1>
 	<div class="mt-4">
 		{#each data.BlogData as post (post.id)}
