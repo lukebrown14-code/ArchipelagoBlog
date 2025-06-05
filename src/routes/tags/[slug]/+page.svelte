@@ -2,4 +2,4 @@
 	export let data;
 </script>
 
-<h1 class="title text-5xl">{data.tag}</h1>
+<h1 class="subTitle">{data.tag}</h1>

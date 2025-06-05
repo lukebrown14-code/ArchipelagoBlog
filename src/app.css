@@ -11,4 +11,8 @@
 	.link {
 		@apply w-fit bg-emerald-400 italic decoration-emerald-400 decoration-dashed transition-all duration-750 hover:bg-red-400;
 	}
+
+	.subTitle {
+		@apply mb-6 text-5xl font-bold underline decoration-red-400 decoration-wavy decoration-4 underline-offset-4;
+	}
 }
