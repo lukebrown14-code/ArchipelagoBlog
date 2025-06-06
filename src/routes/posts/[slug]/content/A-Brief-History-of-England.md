@@ -1,7 +1,7 @@
 ---
 title: 'A Brief History of England'
 subTitle: 'From Stonehenge to Empire: A Journey Through Time'
-tags: ['History', 'Example']
+tags: ['History']
 date: '27/04/2025'
 ---
 
