@@ -1,3 +1,9 @@
+## Useful docs
+
+- mdsvex: https://mdsvex.pngwn.io/docs
+- Tailwind: https://tailwindcss.com/
+- Superbase: https://supabase.com/docs
+
 # sv
 
 Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
